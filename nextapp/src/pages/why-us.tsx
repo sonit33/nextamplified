@@ -1,3 +1,3 @@
-export default function Home() {
+export default function WhyUs() {
   return <div>Why us?</div>;
 }
