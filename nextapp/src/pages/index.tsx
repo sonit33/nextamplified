@@ -1,3 +1,11 @@
+import CarouselSection from "@/components/sections/CarouselSection";
+import DifferentiatorSection from "@/components/sections/DifferentiatorSection";
+import FactsSection from "@/components/sections/FactsSection";
+import FooterSection from "@/components/sections/FooterSection";
+import GutterSection from "@/components/sections/GutterSection";
+import NavigationSection from "@/components/sections/NavigationSection";
+import PartnerLogosSection from "@/components/sections/PartnerLogosSection";
+import QuotesSection from "@/components/sections/QuotesSection";
 import Head from "next/head";
 
 export default function Home() {
@@ -9,9 +17,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <h1 className="text-3xl text-cyan-900">Hello, world!</h1>
-      </main>
+      <NavigationSection />
+      <CarouselSection />
+      <DifferentiatorSection />
+      <PartnerLogosSection />
+      <FactsSection />
+      <QuotesSection />
+      <FooterSection />
+      <GutterSection />
     </>
   );
 }
