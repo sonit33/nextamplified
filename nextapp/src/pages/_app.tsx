@@ -1,6 +1,6 @@
-import FooterSection from "@/components/sections/general/FooterSection";
-import GutterSection from "@/components/sections/general/GutterSection";
-import NavigationSection from "@/components/sections/general/NavigationSection";
+import FooterSection from "@/components/sections/all-pages/FooterSection";
+import GutterSection from "@/components/sections/all-pages/GutterSection";
+import NavigationSection from "@/components/sections/all-pages/NavigationSection";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { Bitter } from "next/font/google";
