@@ -1,25 +1,19 @@
 import PageHeader from "@/components/PageHeader";
-import CarouselSection from "@/components/sections/CarouselSection";
-import DifferentiatorSection from "@/components/sections/DifferentiatorSection";
-import FactsSection from "@/components/sections/FactsSection";
-import FooterSection from "@/components/sections/FooterSection";
-import GutterSection from "@/components/sections/GutterSection";
-import NavigationSection from "@/components/sections/NavigationSection";
-import PartnerLogosSection from "@/components/sections/PartnerLogosSection";
-import QuotesSection from "@/components/sections/QuotesSection";
+import CarouselSection from "@/components/sections/index-page/CarouselSection";
+import DifferentiatorSection from "@/components/sections/index-page/DifferentiatorSection";
+import FactsSection from "@/components/sections/index-page/FactsSection";
+import PartnerLogosSection from "@/components/sections/index-page/PartnerLogosSection";
+import QuotesSection from "@/components/sections/index-page/QuotesSection";
 
 export default function Home() {
   return (
     <>
-      <PageHeader title="Welcome" />
-      <NavigationSection />
+      <PageHeader title="Welcome" description="" />
       <CarouselSection />
       <DifferentiatorSection />
       <PartnerLogosSection />
       <FactsSection />
       <QuotesSection />
-      <FooterSection />
-      <GutterSection />
     </>
   );
 }

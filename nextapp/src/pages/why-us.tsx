@@ -1,16 +1,10 @@
 import PageHeader from "@/components/PageHeader";
-import FooterSection from "@/components/sections/FooterSection";
-import GutterSection from "@/components/sections/GutterSection";
-import NavigationSection from "@/components/sections/NavigationSection";
 
 export default function WhyUs() {
   return (
     <>
-      <PageHeader title="Why us" />
-      <NavigationSection />
+      <PageHeader title="Why us" description="" />
       <div>Why us?</div>
-      <FooterSection />
-      <GutterSection />
     </>
   );
 }
